@@ -47,27 +47,24 @@
   &__view {
     max-width: 1000px;
     margin: 0 auto;
-
   }
 
   &__table {
     padding: 1rem;
-
   }
 
-  &__list-header{
+  &__list-header {
     display: flex;
     justify-content: space-between;
     color: #202124;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 10px;
-    padding: 12px;
+    padding: 0 12px;
   }
 
   &__list {
     @include clear-list;
-
   }
 
   &__record {
@@ -92,6 +89,6 @@
         text-decoration: underline;
       }
     }
-
   }
+
 }

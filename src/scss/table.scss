@@ -26,12 +26,10 @@
     border: 1px solid $border-color;
     background: #f8f9fa;
     border-top: none;
-
   }
 
   .row-data {
     display: flex;
-
   }
 
   .column {
@@ -46,7 +44,6 @@
     border-top: 0;
     border-left: 0;
     height: 100%;
-
   }
 
   .cell {
@@ -99,4 +96,5 @@
       cursor: row-resize;
     }
   }
+
 }
